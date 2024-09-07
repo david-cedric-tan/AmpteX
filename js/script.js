@@ -10,5 +10,7 @@ new Typed("#auto-type", {
     strings: [" a Sustainable Future with Recycled Innovation."], 
     typeSpeed: 80,
     backSpeed: 65,
+    startDelay: 500,       
+    backDelay: 4000,    
     loop: true
 });

@@ -1,3 +1,17 @@
+@media (max-width: 768px) {
+    .content-image {
+        width: 70%;        /* Adjust width for tablets and smaller screens */
+        max-width: 300px;  /* Set an appropriate max width for medium screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .content-image {
+        width: 90%;        /* Increase width for smaller devices */
+        max-width: 250px;  /* Set max width for small screens */
+    }
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -15,8 +29,10 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Initial image styling */
 .content-image {
-    height: 10%;
-    width: 30%;
+    width: 80%; 
+    max-width: 500px;
+    min-width: 200px; 
+    height: auto; 
     border-radius: 5%;
     transition: transform 0.3s ease-in-out; 
 }
@@ -24,6 +40,9 @@ h1, h2, h3, h4, h5, h6 {
 /* Hover effect */
 .content-image:hover {
     transform: scale(1.1); 
+}
+.launch{
+    font-size: 3vh;
 }
 
 .more-gifs {
@@ -38,10 +57,31 @@ h1, h2, h3, h4, h5, h6 {
      0.8px  0.8px 0 rgb(76,76,76);
     margin-bottom: 10px;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 5vh;
     transition: color 0.3s ease, transform 0.3s ease; 
 
 }
+
+
+.small-text{
+    
+    display: block;
+    /* color: rgb(2446, 196, 74); */
+    color: rgb(239,237,235);
+    text-decoration: none;
+    text-shadow: 
+    -0.8px -0.8px 0 rgb(76,76,76),  
+        0.8px -0.8px 0 rgb(76,76,76),  
+    -0.8px  0.8px 0 rgb(76,76,76),  
+        0.8px  0.8px 0 rgb(76,76,76);
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 2vh;
+    transition: color 0.3s ease, transform 0.3s ease; 
+
+
+}
+
 /* .more-gifs:hover {
     color: whitesmoke; 
     transform: translateY(-10px);

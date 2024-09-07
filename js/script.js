@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 new Typed("#auto-type", {
-    strings: [" a Sustainable Future with Recycled Innovation."], 
+    strings: [" Launching Soon  ➜"], 
     typeSpeed: 80,
     backSpeed: 65,
     startDelay: 500,       

@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const video = document.getElementById('backgroundVideo');
+    const video = document.getElementById('bgvideo');
     if (video) {
-        video.playbackRate = 0.005;
+        video.playbackRate = 0.9;
     }
 });
 

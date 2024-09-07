@@ -7,10 +7,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 new Typed("#auto-type", {
-    strings: [" Launching Soon  ➜"], 
+    strings: [" Join the movement ➜"], 
     typeSpeed: 80,
     backSpeed: 65,
     startDelay: 500,       
     backDelay: 4000,    
     loop: true
 });
+

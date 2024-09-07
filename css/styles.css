@@ -179,3 +179,14 @@ body, html {
     z-index: 1; /* Places the overlay above the video */
     pointer-events: none; /* Allows clicks to pass through the overlay */
 }
+
+.launch-link {
+    color: rgb(239,237,235); /* Adjust color for better visibility */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Make it stand out */
+    transition: color 0.3s ease;
+}
+
+.launch-link:hover {
+    color: rgb(246,196,74);
+}

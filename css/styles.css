@@ -194,4 +194,5 @@ body, html {
 
 .launch-link:hover {
     color: rgb(246,196,74);
+    text-decoration: none;
 }

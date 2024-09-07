@@ -11,6 +11,11 @@
         max-width: 250px;  /* Set max width for small screens */
     }
 }
+@media (max-width: 768px) {
+    .launch-link {
+        text-decoration: none !important; /* Forces removal of underline on mobile */
+    }
+}
 
 body {
     margin: 0;

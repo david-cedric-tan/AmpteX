@@ -1,2 +1,7 @@
 # Official Website of AmpteX @USYD
-https://david-cedric-tan.github.io/AmpteX/
+https://enactus-amptex.vercel.app/
+
+
+
+
+Local Hosting: https://david-cedric-tan.github.io/AmpteX/
